@@ -5,6 +5,7 @@ import axios from 'axios'
 import './App.css'
 import Demo1 from './pages/Demo1'
 import Demo2 from './pages/Demo2'
+import Demo3 from './pages/Demo3'
 
 const urlApi = 'https://dog.ceo/api/breed/affenpinscher/images'
 
@@ -40,6 +41,11 @@ class App extends Component {
                     Demo2
                   </NavLink>
                 </li>
+                <li>
+                  <NavLink exact className="nav-link" to="/demo3">
+                    Demo3
+                  </NavLink>
+                </li>
               </ul>
             </header>
             <main>
@@ -51,6 +57,10 @@ class App extends Component {
                 <Route
                   path="/demo2"
                   render={() => <Demo2 images={this.state.images} />}
+                />
+                <Route
+                  path="/demo3"
+                  render={() => <Demo3 images={this.state.images} />}
                 />
               </Switch>
             </main>
