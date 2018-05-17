@@ -1,0 +1,8 @@
+.App .nav-list {
+  display: flex;
+}
+
+.App .nav-list li {
+  list-style: none;
+  margin:10px;
+}

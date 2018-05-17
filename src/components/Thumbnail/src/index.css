@@ -1,0 +1,11 @@
+.Thumbnail {
+  margin: 0;
+  border: 1px solid red;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.Thumbnail img {
+  display: none;
+}

@@ -1,0 +1,19 @@
+.Demo2 ul {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid blue;
+}
+
+.Demo2 ul li {
+  list-style: none;
+  border: 1px solid green;
+  width: 200px;
+  height: 200px;
+  padding: 20px;
+}
+
+.Demo2 ul li img {
+  width: 200px;
+  height: 200px;
+
+}
